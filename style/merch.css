@@ -1,0 +1,44 @@
+*{
+  box-sizing:border-box;
+}
+
+
+header {
+  background-color: #e10600;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding:20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Changa One", cursive;
+  height:80px;
+  font-size: 40px;
+}
+
+merchimg{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  row-gap: 30px;
+}
+
+ul{
+  list-style: none;
+  border:5px solid #e10600;
+  border-width:fit-content;
+  border-radius: 5px;
+  padding:0;
+  display:inline;
+  width:fit-content;
+  text-align: center;
+}
+li{
+  font-size: 20px;
+  font-family: "Changa One", cursive;
+  text-align: center;
+}
+
+a.hover{
+  height: 600 px;
+}

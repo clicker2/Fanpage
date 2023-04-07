@@ -1,0 +1,77 @@
+main {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-image: url(join.jpg);
+  margin-top: 0;
+  padding-top:30px;
+}
+
+header {
+  background-color: #e10600;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0px;
+  font-family: "Changa One", cursive;
+  height: 90px;
+  font-size: 40px;
+  background-image: none;
+}
+
+.disp {
+  font-family: "Prompt", sans-serif;
+  font-size: 35px;
+  margin-top: 20px;
+  background-image: none;
+  background-color: rgba(26, 2, 2, 0.445);
+  border-radius: 3px;
+  color: white;
+}
+
+.in {
+  background-color: black;
+  border-color: #e10600;
+  border-radius: 5px;
+  border-width: 5px;
+  height: 60px;
+  width: 400px;
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-family: "Prompt", sans-serif;
+  text-align: left;
+  color: aliceblue;
+  background-image: none;
+}
+
+.in.choice {
+  width: 600px;
+}
+
+button {
+  background-color: black;
+  border-color: #e10600;
+  border-radius: 5px;
+  border-width: 5px;
+  height: 60px;
+  color: aliceblue;
+  font-size: 25px;
+  padding: 10px 10px;
+  margin-left: 70%;
+  margin-right: 3%;
+  margin-top: 30px;
+  background-image: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  font-size: 30px;
+}

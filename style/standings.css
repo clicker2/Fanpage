@@ -1,0 +1,50 @@
+header {
+  background-color: #e10600;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 0px;
+  font-family: "Changa One", cursive;
+  height: 80px;
+  font-size: 40px;
+  background-image: none;
+}
+
+main {
+  background-image: url(standings.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1000px;
+  margin-top: 0;
+}
+table td {
+  border: solid 1px black;
+  font-size: 15px;
+  height: 25px;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgba(26, 2, 2, 0.445);
+  background-image: none;
+}
+
+table thead {
+  background-color: #e10600;
+  border: solid 5px black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  background-image: none;
+}
+
+table {
+  align-items: center;
+  margin: 0% 36%;
+  width: 28%;
+  font-family: "Prompt", sans-serif;
+  border-radius: 5px;
+  background-image: none;
+  padding-top: 70px;
+}
